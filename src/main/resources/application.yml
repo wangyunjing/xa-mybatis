@@ -1,0 +1,21 @@
+server:
+  port: 8999
+security:
+  basic:
+    enabled: false
+management:
+  security:
+    enabled: false
+
+
+endpoints:
+  shutdown:
+    enabled: true
+    sensitive: false
+
+info:
+  app:
+    encoding: UTF-8
+    java:
+      source: 1.8
+      target: 1.8
